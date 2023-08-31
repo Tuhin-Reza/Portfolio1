@@ -64,15 +64,18 @@ nav>ul>li button {
     align-items: center;
     margin-left: 20px;
 }
+
 .banner-greeting {
     color: #474747;
     font-size: 45px;
 }
+
 .banner-title {
     color: #181818;
     font-size: 75px;
     font-weight: 700;
 }
+
 .banner-description {
     width: 500px;
     height: 60px;
@@ -82,6 +85,7 @@ nav>ul>li button {
     line-height: 30px;
     margin-bottom: 20px;
 }
+
 .btn-header-dwnl {
     color: #FFF;
     text-align: center;
@@ -108,10 +112,62 @@ nav>ul>li button {
     border: 1px solid #FD6E0A;
 }
 
-.banner .banner-img{
+.banner .banner-img {
     margin-left: 100px;
 }
+
 .banner .profile-pic {
     width: 584px;
     height: 636px;
 }
+
+/* --------- Main start ------------- */
+/* --------- About start ------------- */
+.about {
+    width: 1140px;
+    height: 550px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px auto;
+}
+
+.about-title {
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    padding-top: 130px;
+}
+
+.about-description {
+    color: #757575;
+    text-align: center;
+    font-size: 15px;
+    font-weight:400;
+    line-height: 30px;
+    padding: 30px 155px;
+}
+.about-footer-container{
+    display: flex;
+    justify-content: center;
+}
+.about-footer-info{
+    text-align: center;
+    margin-left: 20px;
+
+}
+.about-footer-container > div > h5 {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.about-footer-container > div > p{
+    color:  #474747;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 30px;
+}
+
+
+/* --------- WHat I do start ------------- */
